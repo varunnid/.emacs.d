@@ -1,7 +1,9 @@
 (add-hook 'js-mode-hook 'js2-minor-mode)
-(add-hook 'js2-mode-hook 'ac-js2-mode)
+;;(add-hook 'js2-mode-hook 'ac-js2-mode)
 
-(setq ac-js2-evaluate-calls t)
+;;(setq ac-js2-evaluate-calls t)
+
+
 
 (require 'tern)
 (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
