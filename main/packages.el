@@ -9,11 +9,11 @@
   auto-complete      
   autopair           
   color-theme        
-  color-theme-sol... 
+  color-theme-solarized
   csharp-mode        
   dash               
   discover           
-  discover-js2-re... 
+  discover-js2-refactor 
   eimp               
   ensime             
   epl                
@@ -25,7 +25,7 @@
   helm               
   helm-ag            
   helm-projectile    
-  ido-completing-... 
+  ido-completing-read+
   ido-ubiquitous     
   ido-vertical-mode  
   js2-mode           
