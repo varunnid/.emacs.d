@@ -3,7 +3,8 @@
 
 ;;(setq ac-js2-evaluate-calls t)
 
-
+(require 'js2-refactor)
+(add-hook 'js2-mode-hook #'js2-refactor-mode)
 
 (require 'tern)
 (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
