@@ -58,13 +58,13 @@
   web-beautify       
   yasnippet ))
 
-(defun ensure-packages()
+(defun install-packages()
   (interactive)
   (unless package-archive-contents (package-refresh-contents))
   (dolist (package package-list)
     (unless (package-installed-p package)
       (package-install package))))
 
-(ensure-packages)
+(install-packages)
 
 (provide 'packages)
