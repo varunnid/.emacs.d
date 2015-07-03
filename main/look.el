@@ -1,2 +1,2 @@
-(load-theme 'solarized-dark t)
+(load-theme 'zenburn t)
 (provide 'look)
